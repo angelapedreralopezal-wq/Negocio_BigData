@@ -1,0 +1,166 @@
+{
+    "gasto_departamento": [
+        {
+            "departamento": "Banca Privada PA S.C.P",
+            "anio": 2023,
+            "presupuesto_asignado": "129249.45",
+            "presupuesto_utilizado": "89519.67"
+        },
+        {
+            "departamento": "Grupo Elorza S.A.",
+            "anio": 2023,
+            "presupuesto_asignado": "105559.47",
+            "presupuesto_utilizado": "78255.66"
+        },
+        {
+            "departamento": "Industrias KYAE S.A.U",
+            "anio": 2023,
+            "presupuesto_asignado": "102712.18",
+            "presupuesto_utilizado": "68984.04"
+        },
+        {
+            "departamento": "Infraestructuras Bustos y asociados S.C.P",
+            "anio": 2023,
+            "presupuesto_asignado": "113143.52",
+            "presupuesto_utilizado": "91040.61"
+        },
+        {
+            "departamento": "Ulises Atienza Vel\u00e1zquez S.L.",
+            "anio": 2023,
+            "presupuesto_asignado": "97820.58",
+            "presupuesto_utilizado": "86788.89"
+        },
+        {
+            "departamento": "Banca Privada PA S.C.P",
+            "anio": 2024,
+            "presupuesto_asignado": "142522.20",
+            "presupuesto_utilizado": "77485.76"
+        },
+        {
+            "departamento": "Grupo Elorza S.A.",
+            "anio": 2024,
+            "presupuesto_asignado": "77443.48",
+            "presupuesto_utilizado": "54722.22"
+        },
+        {
+            "departamento": "Industrias KYAE S.A.U",
+            "anio": 2024,
+            "presupuesto_asignado": "130467.45",
+            "presupuesto_utilizado": "92938.43"
+        },
+        {
+            "departamento": "Infraestructuras Bustos y asociados S.C.P",
+            "anio": 2024,
+            "presupuesto_asignado": "127819.40",
+            "presupuesto_utilizado": "111004.40"
+        },
+        {
+            "departamento": "Ulises Atienza Vel\u00e1zquez S.L.",
+            "anio": 2024,
+            "presupuesto_asignado": "132929.58",
+            "presupuesto_utilizado": "114107.29"
+        },
+        {
+            "departamento": "Banca Privada PA S.C.P",
+            "anio": 2025,
+            "presupuesto_asignado": "71866.38",
+            "presupuesto_utilizado": "47041.31"
+        },
+        {
+            "departamento": "Grupo Elorza S.A.",
+            "anio": 2025,
+            "presupuesto_asignado": "130954.41",
+            "presupuesto_utilizado": "106543.78"
+        },
+        {
+            "departamento": "Industrias KYAE S.A.U",
+            "anio": 2025,
+            "presupuesto_asignado": "98576.91",
+            "presupuesto_utilizado": "58661.67"
+        },
+        {
+            "departamento": "Infraestructuras Bustos y asociados S.C.P",
+            "anio": 2025,
+            "presupuesto_asignado": "97073.43",
+            "presupuesto_utilizado": "55027.03"
+        },
+        {
+            "departamento": "Ulises Atienza Vel\u00e1zquez S.L.",
+            "anio": 2025,
+            "presupuesto_asignado": "103108.41",
+            "presupuesto_utilizado": "85850.57"
+        }
+    ],
+    "facturas_retrasadas": [
+        {
+            "numero_factura": "FAC-1294",
+            "total": "2445.86",
+            "departamento": "Ulises Atienza Vel\u00e1zquez S.L.",
+            "proveedor": "Sebasti\u00e1n y Llobet S.L.",
+            "estado": "Retrasado"
+        },
+        {
+            "numero_factura": "FAC-2769",
+            "total": "538.64",
+            "departamento": "Infraestructuras Bustos y asociados S.C.P",
+            "proveedor": "Robledo & Asociados S.Coop.",
+            "estado": "Pendiente"
+        },
+        {
+            "numero_factura": "FAC-3808",
+            "total": "1235.56",
+            "departamento": "Infraestructuras Bustos y asociados S.C.P",
+            "proveedor": "Robledo & Asociados S.Coop.",
+            "estado": "Retrasado"
+        },
+        {
+            "numero_factura": "FAC-4305",
+            "total": "2222.09",
+            "departamento": "Banca Privada PA S.C.P",
+            "proveedor": "Morata y Fortuny S.Com.",
+            "estado": "Pendiente"
+        },
+        {
+            "numero_factura": "FAC-6528",
+            "total": "2520.62",
+            "departamento": "Grupo Elorza S.A.",
+            "proveedor": "Desarrollo M\u00ednguez S.Coop.",
+            "estado": "Pendiente"
+        },
+        {
+            "numero_factura": "FAC-7357",
+            "total": "686.96",
+            "departamento": "Grupo Elorza S.A.",
+            "proveedor": "Blanca Herrera Casanovas S.A.",
+            "estado": "Retrasado"
+        },
+        {
+            "numero_factura": "FAC-8057",
+            "total": "1241.71",
+            "departamento": "Grupo Elorza S.A.",
+            "proveedor": "Suministros Alfonso y asociados S.L.",
+            "estado": "Pendiente"
+        },
+        {
+            "numero_factura": "FAC-8521",
+            "total": "4401.91",
+            "departamento": "Grupo Elorza S.A.",
+            "proveedor": "Robledo & Asociados S.Coop.",
+            "estado": "Pendiente"
+        },
+        {
+            "numero_factura": "FAC-9463",
+            "total": "1074.45",
+            "departamento": "Grupo Elorza S.A.",
+            "proveedor": "Hnos Barbero S.L.L.",
+            "estado": "Retrasado"
+        },
+        {
+            "numero_factura": "FAC-9483",
+            "total": "4787.58",
+            "departamento": "Infraestructuras Bustos y asociados S.C.P",
+            "proveedor": "Familia Piquer S.L.N.E",
+            "estado": "Retrasado"
+        }
+    ]
+}
