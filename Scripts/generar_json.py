@@ -4,10 +4,7 @@ import psycopg2
 import json
 from datetime import date
 
-# ------------------------------
-# Funciones para generar JSON
-# ------------------------------
-
+# FUNCIONES PARA GENERAR EL JSON
 def generar_json_mariadb():
     # Conexión MariaDB con pymysql
     conexion = pymysql.connect(
@@ -57,9 +54,7 @@ def generar_json_mariadb():
     conexion.close()
     print("JSON de MariaDB generado: mariadb_analisis.json")
 
-# ------------------------------
 # MySQL
-# ------------------------------
 def generar_json_mysql():
     conexion = mysql.connector.connect(
         host="localhost",
@@ -102,9 +97,7 @@ def generar_json_mysql():
     conexion.close()
     print("JSON de MySQL generado: mysql_analisis.json")
 
-# ------------------------------
 # PostgreSQL
-# ------------------------------
 def generar_json_postgres():
     conexion = psycopg2.connect(
         host="localhost",
@@ -151,10 +144,7 @@ def generar_json_postgres():
     conexion.close()
     print("JSON de PostgreSQL generado: postgres_analisis.json")
 
-
-# ------------------------------
 # EJECUCIÓN
-# ------------------------------
 if __name__ == "__main__":
     generar_json_mariadb()
     generar_json_mysql()
