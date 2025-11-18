@@ -39,7 +39,7 @@ dbs = {
 
 fake = Faker('es_ES')
 
-# --- Funciones de inserción (idénticas para todas las DBs) ---
+# Funciones de inserción (idénticas para todas las DBs)
 def insertar_departamentos(cursor, conexion, n=5):
     for _ in range(n):
         cursor.execute("""
@@ -183,7 +183,7 @@ def insertar_alertas(cursor, conexion, n=10):
     conexion.commit()
 
 
-# --- Llenado de todas las bases de datos ---
+# Llenado de todas las bases de datos 
 for motor, cfg in dbs.items():
     print(f"\nConectando a {motor}...")
     
