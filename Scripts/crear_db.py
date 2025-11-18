@@ -2,17 +2,10 @@
 Script para crear las bases de datos 'presupuesto_db' en MariaDB, MySQL y PostgreSQL
 con las tablas definidas en el diagrama de 10 tablas.
 """
-
-# ------------------------------
-# IMPORTS
-# ------------------------------
 import mysql.connector
 import psycopg2
 
-# ------------------------------
 # DEFINICIÓN DE TABLAS
-# ------------------------------
-
 TABLAS = {
     "Departamentos": """
         CREATE TABLE Departamentos (
@@ -119,10 +112,7 @@ TABLAS = {
     """
 }
 
-# ------------------------------
 # FUNCIONES PARA CREAR BASES
-# ------------------------------
-
 def crear_mariadb():
     print("Creando base de datos en MariaDB...")
     conexion = mysql.connector.connect(
@@ -228,9 +218,7 @@ def crear_postgres():
     conexion.close()
     print("Base de datos PostgreSQL creada correctamente.\n")
 
-# ------------------------------
 # EJECUCIÓN
-# ------------------------------
 if __name__ == "__main__":
     crear_mariadb()
     crear_mysql()
